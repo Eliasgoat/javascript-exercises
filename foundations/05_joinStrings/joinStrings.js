@@ -9,8 +9,18 @@
 
 // Add your code right below, good luck!
 
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
 
+// Step 3: Use the variables above to create a fullName variable and an age variable. Then, use those variables to create the same greeting as above.
+
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 
 // Do not change this
